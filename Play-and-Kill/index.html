@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main_style.css" />
+    <link rel="stylesheet" href="styles/pinow_style.css" />
+    <title>PK </title>
+  </head>
+  <body id="body">
+    <div class="screen" id="screen-black" name="start">
+      <h1 id="replay">Play To  Kill  Villains </h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen" id="screen-black">
+      <h1>What is your favorite Villains?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Fly</p>
+            <img src="http://pngimg.com/uploads/fly/fly_PNG3946.png" alt="fly">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Mosquito</p>
+            <img
+               src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png"
+               alt="mosquito"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Spider</p>
+            <img
+               src="http://pngimg.com/uploads/spider/spider_PNG12.png"
+               alt="spider"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Roach</p>
+            <img
+               src="http://pngimg.com/uploads/roach/roach_PNG12163.png"
+               alt="roach"
+               />
+          </button>
+        </li>
+      </ul>
+    </div> 
+     
+    <div class="screen game-container" id="game-container">
+      
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Are you annnoyed yet? <br>
+        You are playing an impossible game!!
+      </h5>
+      <section id="wrap">
+        <section id="main">
+        
+          <div class="keys" style=" position: absolute;
+          top: 0px;   right: 285px;">
+            <div data-key="65" class="key" data-note="C">
+                <span class="hints">A</span>
+            </div>
+            <div data-key="87" class="key sharp" data-note="C#">
+                <span class="hints">W</span>
+            </div>
+            <div data-key="83" class="key" data-note="D">
+                <span class="hints">S</span>
+            </div>
+            <div data-key="69" class="key sharp" data-note="D#">
+                <span class="hints">E</span>
+            </div>
+            <div data-key="68" class="key" data-note="E">
+                <span class="hints">D</span>
+            </div>
+            <div data-key="70" class="key" data-note="F">
+                <span class="hints">F</span>
+            </div>
+            <div data-key="84" class="key sharp" data-note="F#">
+                <span class="hints">T</span>
+            </div>
+            <div data-key="71" class="key" data-note="G">
+                <span class="hints">G</span>
+            </div>
+          </div>
+        
+    
+          <audio data-key="A" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
+          <audio data-key="W" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>
+          <audio data-key="S" src="http://carolinegabriel.com/demo/js-keyboard/sounds/042.wav"></audio>
+          <audio data-key="E" src="http://carolinegabriel.com/demo/js-keyboard/sounds/043.wav"></audio>
+          <audio data-key="D" src="http://carolinegabriel.com/demo/js-keyboard/sounds/044.wav"></audio>
+          <audio data-key="F" src="http://carolinegabriel.com/demo/js-keyboard/sounds/045.wav"></audio>
+          <audio data-key="T" src="http://carolinegabriel.com/demo/js-keyboard/sounds/046.wav"></audio>
+          <audio data-key="G" src="http://carolinegabriel.com/demo/js-keyboard/sounds/047.wav"></audio>
+          <audio data-key="Y" src="http://carolinegabriel.com/demo/js-keyboard/sounds/048.wav"></audio>
+          <audio data-key="H" src="http://carolinegabriel.com/demo/js-keyboard/sounds/049.wav"></audio>
+          <audio data-key="U" src="http://carolinegabriel.com/demo/js-keyboard/sounds/050.wav"></audio>
+          <audio data-key="J" src="http://carolinegabriel.com/demo/js-keyboard/sounds/051.wav"></audio>
+          <audio data-key="K" src="http://carolinegabriel.com/demo/js-keyboard/sounds/052.wav"></audio>
+          <audio data-key="O" src="http://carolinegabriel.com/demo/js-keyboard/sounds/053.wav"></audio>
+          <audio data-key="L" src="http://carolinegabriel.com/demo/js-keyboard/sounds/054.wav"></audio>
+          <audio data-key="P" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>
+          <audio data-key=";" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>
+          </section>
+      </section>
+      <!--<a class="btn"
+      style=" bottom:10px; position: absolute;" href="#screen-black" id="replay">Replay</a>-->
+      <button class="btn" id="raplay" style=" position:absolute; bottom:5px;">End Game</button>
+    </div>
+  
+    <div class="screen" id="screen-black">
+      <h1 id="replay">THANK YOU FOR PLAYING.. </h1>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
